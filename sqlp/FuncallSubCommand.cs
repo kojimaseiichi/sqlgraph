@@ -12,7 +12,8 @@ namespace sqlp
     {
         private const string helpFile =
 @"解析するSQLファイルのパスを指定します。
-dオプションを指定する場合は、ファイル名を指定します。";
+dオプションを指定する場合は、ワイルドカードを使用してファイル名を指定します。
+（例：*.sql）";
 
         private const string helpOutput =
 @"出力結果を任意で指定します。";
